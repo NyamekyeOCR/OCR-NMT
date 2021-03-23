@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit import caching
+import easyocr
 import PIL
 import torch
 import numpy as np
