@@ -38,6 +38,7 @@ def image_input(recognize=True, lang='en_fr'):
     # content = imutils.resize(content, width=WIDTH)
     # generated = style_transfer(content, model)
     
+    st.image(content)
     if recognize:
 	    text = recognition(content)
     else:
@@ -51,7 +52,6 @@ def image_input(recognize=True, lang='en_fr'):
         translated = fr_en(fr_en_['tokenizer'], fr_en_['model'], text)
     
     trans = dict(zip([x[1] for x in text], translated))
-    st.image(content)
     #st.write(translated)
     #st.write([x[1] for x in text])
     st.write(trans)
