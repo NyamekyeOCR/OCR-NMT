@@ -1,9 +1,9 @@
 transformers
-easyocr
+easyocr==1.2.5
 numpy
 opencv_python
 imutils
-streamlit
+streamlit==0.78.0
 scikit-image
 torch
 Pillow
