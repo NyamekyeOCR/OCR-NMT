@@ -17,6 +17,7 @@ from transformers import (
 		BeamSearchScorer,
 )
 
+@st.cache(suppress_st_warning=True)
 def image_input(recognize=True, lang='en_fr'):
     
     if st.sidebar.checkbox('Upload', value=True):
@@ -54,7 +55,8 @@ def image_input(recognize=True, lang='en_fr'):
     trans = dict(zip([x[1] for x in text], translated))
     #st.write(translated)
     #st.write([x[1] for x in text])
-    st.write(trans)
+    st.success(' '.join(translated))
+    st.success(' '.join(text))
    
 
 """
