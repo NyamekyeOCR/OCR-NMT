@@ -55,7 +55,7 @@ def image_input(recognize=True, lang='en_fr'):
     trans = dict(zip([x[1] for x in text], translated))
     #st.write(translated)
     #st.write([x[1] for x in text])
-    st.success(' '.join(text))
+    st.write(text)
     st.success(' '.join(translated))
    
 
