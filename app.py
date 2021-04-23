@@ -17,7 +17,7 @@ from transformers import (
                             BeamSearchScorer,
 )
 
-st.title("Neural machine translation on scene and written text.")
+st.title("NMT on scene and written text.")
 st.sidebar.title('Navigation')
 method = st.sidebar.radio('Go To ->', options=['Image', 'Camera'])
 st.sidebar.header('Select Image')
