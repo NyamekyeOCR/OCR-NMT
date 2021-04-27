@@ -33,7 +33,7 @@ def image_input(recognize=True, lang='en_fr'):
     
     else:
         st.warning("Upload an Image OR Untick the Upload Button")
-        st.stop()
+        
     
     # WIDTH = st.sidebar.select_slider('QUALITY (May reduce the speed)', list(range(150, 501, 50)), value=200) 
     # content = imutils.resize(content, width=WIDTH)
