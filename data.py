@@ -4,6 +4,10 @@ en_fr_ = ["Helsinki-NLP/opus-mt-en-fr"]
 
 fr_en_ = ["Helsinki-NLP/opus-mt-fr-en"]
 
+input_langs = {'English': 'en'}
+
+output_langs = {'French': 'fr'}
+
 images_path = 'images'
 
 images_name = [x[:-4] for x in os.listdir(images_path)]
