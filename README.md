@@ -1,6 +1,6 @@
 # Neural Machine Translation on Scene Text
 - Upload an image, it detects and translates the text in it to different languages
-- Scene text recognition system was implemented and deployed using [EasyOCR library](https://github.com/JaidedAI/EasyOCR)
+- Scene text recognition system was implemented and deployed using [EasyOCR](https://github.com/JaidedAI/EasyOCR)
 - Neural machine translation system was trained and deployed with  [huggingface transformers](https://github.com/huggingface/transformers)
 
 
